@@ -3,8 +3,8 @@
 source scripts/l4t_version.sh
 
 if [ $ARCH = "aarch64" ]; then
-	BASE_IMAGE="nvcr.io/nvidia/l4t-base:r$L4T_VERSION"
-	BASE_DEVEL="nvcr.io/nvidian/nvidia-l4t-base:r$L4T_VERSION"
+	BASE_IMAGE="nvcr.io/nvidia/l4t-base:r32.7.1"
+	BASE_DEVEL="nvcr.io/nvidian/nvidia-l4t-base:r32.7.1"
 
 	if [ $L4T_RELEASE -eq 32 ]; then
 		if [ $L4T_REVISION_MAJOR -eq 4 ]; then
