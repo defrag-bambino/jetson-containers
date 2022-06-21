@@ -160,6 +160,7 @@ build_ros()
 	local dockerfile=${5:-"Dockerfile.ros.$distro"}
 	local container_tag="ros:${distro}-${extra_tag}l4t-r32.7.1"
 	
+	BASE_IMAGE="nvcr.io/nvidia/l4t-base:r32.7.1"
 	echo ""
 	echo "Building container $container_tag"
 	echo "BASE_IMAGE=$base_image"
