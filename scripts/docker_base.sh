@@ -32,7 +32,7 @@ if [ $ARCH = "aarch64" ]; then
 			BASE_IMAGE="nvcr.io/nvidia/l4t-base:r34.1"
 		fi
 		
-		BASE_IMAGE_L4T=$BASE_IMAGE
+		BASE_IMAGE_L4T="nvcr.io/nvidia/l4t-base:r32.7.1"
 		BASE_IMAGE="jetpack:r$L4T_VERSION"
 	fi
 		
