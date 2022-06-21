@@ -144,7 +144,7 @@ fi
 
 
 # check for local version of PyTorch base container
-BASE_IMAGE_PYTORCH="jetson-inference:r$L4T_VERSION"
+BASE_IMAGE_PYTORCH="jetson-inference:r32.7.1"
 
 if [[ "$(sudo docker images -q $BASE_IMAGE_PYTORCH 2> /dev/null)" == "" ]]; then
 	BASE_IMAGE_PYTORCH="dustynv/$BASE_IMAGE_PYTORCH"
