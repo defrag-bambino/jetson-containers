@@ -1,4 +1,5 @@
 MODIFICATIONS: foxy dockerfile: remove setting middleware default to "rmw_cyclonedds_cpp"
+                manually set r32.7.1 because my nano keeps updating to r32.7.2 which does not have a ml container (yet).
 # Machine Learning Containers for Jetson and JetPack
 
 Hosted on [NVIDIA GPU Cloud](https://ngc.nvidia.com/catalog/containers?orderBy=modifiedDESC&query=L4T&quickFilter=containers&filters=) (NGC) are the following Docker container images for machine learning on Jetson:
